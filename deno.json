@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "fmt": "deno fmt deno/",
+    "lint": "deno lint deno/",
+    "envinfo": "deno run --allow-run --allow-read --allow-env --allow-sys deno/envinfo.ts"
+  },
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom", "dom.iterable"]
+  }
+}

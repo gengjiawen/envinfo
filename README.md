@@ -40,6 +40,20 @@ To use as a library in another project:
 npm install envinfo || yarn add envinfo
 ```
 
+## Deno Usage
+
+Run directly with Deno (no Node install required):
+
+```sh
+deno run --allow-run --allow-read --allow-env --allow-sys deno/envinfo.ts --system --binaries
+```
+
+Or add tasks via `deno.json` and run:
+
+```sh
+deno task envinfo --system --binaries --json
+```
+
 ## CLI Usage
 
 `envinfo` || `npx envinfo`
