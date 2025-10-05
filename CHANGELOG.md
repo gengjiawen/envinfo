@@ -1,5 +1,12 @@
 # Changelog
 
+### [7.16.1](https://www.github.com/gengjiawen/envinfo/compare/v7.16.0...v7.16.1) (2025-10-05)
+
+
+### Bug Fixes
+
+* add fallback command for SDK manager on macOS ([#275](https://www.github.com/gengjiawen/envinfo/issues/275)) ([4bfda67](https://www.github.com/gengjiawen/envinfo/commit/4bfda67325d519a83d42e5cc76777a18380c4f2f))
+
 ## [7.16.0](https://www.github.com/tabrindle/envinfo/compare/v7.15.0...v7.16.0) (2025-10-04)
 
 
